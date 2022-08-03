@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I am currently the Scientific Coordinator at the Research Network Data Science at the University of Vienna.
+I am currently an Associate Director of the Center for Geospatial Solutions at the Lincoln Institute of Land Policy, where my primary responsibility is coordinating the development and implementing the technical program of the Internet of Water Coalition.
 
 ### Research Interests
 
@@ -16,15 +16,15 @@ I am currently the Scientific Coordinator at the Research Network Data Science a
 ::: {.d-flex .justify-content-between}
 <div>
 
-**New York University**\
-PhD in Political Methodology\
-Advisors: Cyrus Samii, Neal Beck, Josh Tucker
+**University of North Carolina at Chapel Hill**\
+PhD in City and Regional Planning\
+Advisor: Meenu Tewari
 
 </div>
 
 ::: text-end
-New York, NY\
-Granted May 2016
+Chapel Hill, NC\
+Expected 2022
 :::
 :::
 
@@ -34,14 +34,35 @@ Granted May 2016
 ::: {.d-flex .justify-content-between}
 <div>
 
-**UNC Chapel Hill**\
-B.A. in International and Area Studies with distinction
+**University of North Carolina at Chapel Hill**
+
+-   MCRP in City and Regional Planning
+
+<!-- -->
+
+-   MSPH in Environmental Sciences and Engineering
 
 </div>
 
 ::: text-end
 Chapel Hill, NC\
-Granted June 2010
+Granted June 2014
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+<div>
+
+**Stanford University**
+
+-   BS in Environmental Engineering\
+    *Conferred with Distinction*
+
+</div>
+
+::: text-end
+Stanford, CA\
+Granted June 2011
 :::
 :::
 
