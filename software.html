@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Projects &amp; Software — Kyle Onda</title>
-<meta name="description" content="Projects led by Kyle Onda as Principal Investigator (Western Water Datahub, Arizona Water Observatory, Geoconnex) and open-source software (edr4r).">
+<meta name="description" content="Projects Kyle Onda directs as Principal Investigator (Western Water Datahub, Arizona Water Observatory, Geoconnex) and software he personally writes and maintains (edr4r, teacup-generator).">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -23,18 +23,19 @@
 
 <header class="page-title container">
   <h1>Projects &amp; Software</h1>
-  <p>Most of my work is open source, under the <a href="https://github.com/internetofwater">@internetofwater</a> and <a href="https://github.com/cgs-earth">@cgs-earth</a> GitHub organizations.</p>
+  <p><strong>Projects</strong> are programs I direct: I set the architecture, secure the funding, and steer delivery, while a team of software developers, data scientists, and stakeholder engagement specialists does most of the actual building. <strong>My software</strong> is code I write and maintain myself. Most of it is open source, under the <a href="https://github.com/internetofwater">@internetofwater</a> and <a href="https://github.com/cgs-earth">@cgs-earth</a> GitHub organizations.</p>
 </header>
 
 <main class="container">
 
 <section>
-  <h2>Projects <small>data infrastructure I lead as Principal Investigator</small></h2>
+  <h2>Projects <small>programs I direct &mdash; built by the team</small></h2>
+  <p class="section-note">I lead these as Principal Investigator or program director. The day-to-day engineering, data science, and partner engagement is the work of the CGS / Internet of Water team.</p>
 
   <div class="card">
     <p class="meta"><span class="tag pi">Principal Investigator</span><span class="tag">OGC APIs</span><span class="tag">pygeoapi</span><span class="tag">reservoir &amp; snow data</span></p>
     <h3>Western Water Datahub</h3>
-    <p>A unified OGC API interface to water data that matters for western U.S. water supply: reservoir storage and releases (Bureau of Reclamation RISE, USACE), snowpack (NRCS SNOTEL), streamflow observations and forecasts (USGS, AWDB, NOAA River Forecast Centers), and gridded precipitation (NOAA, PRISM) &mdash; consolidated behind standard Features and Environmental Data Retrieval endpoints. A collaboration between the U.S. Bureau of Reclamation, CGS/Internet of Water, and the Western States Water Council.</p>
+    <p>A unified OGC API interface to water data that matters for western U.S. water supply: reservoir storage and releases (Bureau of Reclamation RISE, USACE), snowpack (NRCS SNOTEL), streamflow observations and forecasts (USGS, AWDB, NOAA River Forecast Centers), and gridded precipitation (NOAA, PRISM) &mdash; consolidated behind standard Features and Environmental Data Retrieval endpoints. A collaboration between the U.S. Bureau of Reclamation, CGS/Internet of Water, and the Western States Water Council, built by the CGS engineering team.</p>
     <div class="card-links">
       <a href="https://wwdh.internetofwater.app">wwdh.internetofwater.app</a>
       <a href="https://github.com/internetofwater/Western-Water-Datahub">GitHub</a>
@@ -44,7 +45,7 @@
   <div class="card">
     <p class="meta"><span class="tag pi">Principal Investigator</span><span class="tag">OGC APIs</span><span class="tag">remote sensing</span><span class="tag">groundwater</span></p>
     <h3>Arizona Water Observatory</h3>
-    <p>A statewide water data platform built with Arizona State University: a React/Mapbox front end over a pygeoapi back end serving OGC API Features, EDR, and Maps. Integrates Arizona Department of Water Resources groundwater wells, federal monitoring networks (USACE, SNOTEL, NOAA National Water Model), and satellite remote sensing of water storage and soil moisture (GRACE, SMAP), deployed on Google Cloud.</p>
+    <p>A statewide water data platform developed with Arizona State University: a React/Mapbox front end over a pygeoapi back end serving OGC API Features, EDR, and Maps. Integrates Arizona Department of Water Resources groundwater wells, federal monitoring networks (USACE, SNOTEL, NOAA National Water Model), and satellite remote sensing of water storage and soil moisture (GRACE, SMAP), deployed on Google Cloud by the CGS team.</p>
     <div class="card-links">
       <a href="https://github.com/cgs-earth/ArizonaWaterObservatory">GitHub</a>
     </div>
@@ -53,7 +54,7 @@
   <div class="card">
     <p class="meta"><span class="tag">open standard</span><span class="tag">persistent identifiers</span><span class="tag">knowledge graph</span></p>
     <h3>Geoconnex</h3>
-    <p>An open persistent identifier system and knowledge graph for hydrologic features in the United States. Geoconnex provides community-managed reference features (monitoring locations, mainstems, watersheds) with resolvable URIs and structured, linked metadata &mdash; making water data published by federal agencies, states, tribes, and utilities discoverable and interoperable. I designed the original architecture and lead its continued development and federal adoption.</p>
+    <p>An open persistent identifier system and knowledge graph for hydrologic features in the United States. Geoconnex provides community-managed reference features (monitoring locations, mainstems, watersheds) with resolvable URIs and structured, linked metadata &mdash; making water data published by federal agencies, states, tribes, and utilities discoverable and interoperable. I designed the original architecture and direct its development and federal adoption; the Internet of Water team builds and operates it.</p>
     <div class="card-links">
       <a href="https://geoconnex.us">geoconnex.us</a>
       <a href="https://github.com/internetofwater/geoconnex.us">GitHub</a>
@@ -64,7 +65,7 @@
   <div class="card">
     <p class="meta"><span class="tag">open-source tooling</span><span class="tag">SensorThings</span></p>
     <h3>Internet of Water tools</h3>
-    <p>A suite of open-source components for publishing and integrating water data: reference feature servers built on pygeoapi and OGC API standards, SensorThings API deployments linking hydrologic features to environmental sensor data streams, harvesting and ETL pipelines, and dashboards.</p>
+    <p>A suite of open-source components for publishing and integrating water data: reference feature servers built on pygeoapi and OGC API standards, SensorThings API deployments linking hydrologic features to environmental sensor data streams, harvesting and ETL pipelines, and dashboards. Developed and maintained by the Internet of Water engineering team under my direction.</p>
     <div class="card-links">
       <a href="https://internetofwater.org">internetofwater.org</a>
       <a href="https://github.com/internetofwater">GitHub organization</a>
@@ -73,7 +74,8 @@
 </section>
 
 <section>
-  <h2>Software <small>tools I write and maintain</small></h2>
+  <h2>My software <small>code I write and maintain myself</small></h2>
+  <p class="section-note">Unlike the projects above, these repositories are my own hands-on-keyboard work.</p>
 
   <div class="card">
     <p class="meta"><span class="tag">R package</span><span class="tag">OGC API&ndash;EDR</span><span class="tag">MIT</span></p>
@@ -81,6 +83,16 @@
     <p>An R client for any service speaking OGC API &mdash; Environmental Data Retrieval, built for in-situ monitoring networks: stream gauges, weather stations, snow telemetry, reservoirs. It handles the tedious parts (URL construction, WKT encoding, retries, content negotiation) and returns tidy data &mdash; CoverageJSON becomes a long tibble, GeoJSON becomes sf &mdash; with one-call plotting, interactive station maps, and exploratory snapshots. Works out of the box against the USGS waterdata OGC API and the Western Water Datahub.</p>
     <div class="card-links">
       <a href="https://github.com/ksonda/edr4r">GitHub</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <p class="meta"><span class="tag">R</span><span class="tag">Docker</span><span class="tag">reservoir conditions</span></p>
+    <h3>teacup-generator</h3>
+    <p>The data engine behind reservoir &ldquo;teacup&rdquo; visualizations. An R workflow that compiles daily storage conditions for 214 western U.S. reservoirs from four sources (Reclamation RISE, USACE, USGS, CDEC), computes percentiles and percent-full against the 1990&ndash;2020 water years, and publishes daily CSVs to HydroShare &mdash; feeding the Western Water Datahub reservoir dashboard and Reclamation&rsquo;s RISE teacup diagrams. Containerized and run on a daily schedule, with a period of record back to 1990.</p>
+    <div class="card-links">
+      <a href="https://github.com/cgs-earth/teacup-generator">GitHub</a>
+      <a href="https://www.hydroshare.org/resource/22b2f10103e5426a837defc00927afbd/">Data on HydroShare</a>
     </div>
   </div>
 </section>
@@ -91,9 +103,10 @@
   <div class="card">
     <p class="meta"><span class="tag">interoperability</span><span class="tag">co-chair</span></p>
     <h3>OGC Water Quality Interoperability Experiment</h3>
-    <p>Co-chaired an Open Geospatial Consortium initiative testing how water quality observation data can be exchanged across systems using OGC standards, with participants from government agencies and industry internationally.</p>
+    <p>Co-chaired an Open Geospatial Consortium initiative testing how water quality observation data can be exchanged across systems using OGC standards, with participants from government agencies and industry internationally. Findings published as OGC Engineering Report 25-016.</p>
     <div class="card-links">
       <a href="https://github.com/opengeospatial/WaterQualityIE">GitHub</a>
+      <a href="https://docs.ogc.org/per/25-016.pdf">Engineering Report</a>
     </div>
   </div>
 
