@@ -346,9 +346,128 @@ footer .container {
 .page-title h1 { font-size: 2rem; margin: 0 0 0.4rem; }
 .page-title p { color: var(--text-muted); margin: 0; }
 
+/* writing / blog listing */
+.post-list { list-style: none; padding: 0; margin: 0; }
+
+.post-item {
+  margin-bottom: 1.6rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent-soft);
+  transition: border-color 0.15s ease;
+}
+.post-item:hover { border-left-color: var(--accent); }
+
+.post-item h3 {
+  font-size: 1.12rem;
+  margin: 0 0 0.2rem;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.post-item h3 a { color: var(--text); }
+.post-item h3 a:hover { color: var(--accent); text-decoration: none; }
+
+.post-item .post-date {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin: 0 0 0.3rem;
+}
+
+.post-item .post-excerpt {
+  font-size: 0.95rem;
+  margin: 0;
+  color: var(--text);
+}
+
+/* blog article */
+.article { padding: 2.5rem 0 1.5rem; }
+
+.article-header { margin-bottom: 2rem; }
+
+.article-header h1 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+  line-height: 1.3;
+}
+
+.article-meta {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.article-body h2 {
+  font-size: 1.35rem;
+  margin: 2.25rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent-soft);
+}
+
+.article-body h3 {
+  font-size: 1.1rem;
+  margin: 1.75rem 0 0.5rem;
+}
+
+.article-body p {
+  margin: 0 0 1.1rem;
+}
+
+.article-body blockquote {
+  margin: 1.25rem 0;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.article-body hr {
+  border: none;
+  border-top: 2px solid var(--accent-soft);
+  margin: 2.5rem 0;
+}
+
+.article-body em.jp {
+  font-style: normal;
+  font-size: 0.95em;
+}
+
+.article-body .references {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.article-body .references h2 {
+  font-size: 1.2rem;
+}
+
+.article-body .references h3 {
+  font-size: 1.02rem;
+  color: var(--accent);
+  margin: 1.25rem 0 0.5rem;
+  font-family: inherit;
+}
+
+.article-body .references ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.article-body .references li {
+  margin-bottom: 0.6rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent-soft);
+}
+
+.article-back {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+
 @media (max-width: 620px) {
   .hero h1 { font-size: 1.9rem; }
   body { font-size: 16px; }
   .hero-grid { flex-direction: column-reverse; align-items: center; text-align: left; }
   .headshot { width: 150px; height: 150px; margin-top: 0; }
+  .article-header h1 { font-size: 1.6rem; }
 }
